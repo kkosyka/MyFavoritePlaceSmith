@@ -200,6 +200,8 @@
             </p>
             <textarea id="description" name="description" style="margin-bottom:0px;"></textarea>
             <span id="charlimitinfo" style="font-size:0.8em;" >(Max. 255 characters)</span>
+            <p>
+              My favorite place is:
             <select id="location" name="location">
               <option value="" disabled="disabled" selected="selected">
                 Please select...
@@ -211,138 +213,38 @@
                 Indoors
               </option>
             </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
-            <select id="location" name="location">
-              <option value="" disabled="disabled" selected="selected">
-                Please select...
-              </option>
-              <option value="out">
-                Outdoors
-              </option>
-              <option value="ind">
-                Indoors
-              </option>
-            </select>
+            </p>
+            <p>
+              <p>
+                My favorite place is:
+              <select id="location" name="location">
+                <option value="" disabled="disabled" selected="selected">
+                  Please select...
+                </option>
+                <option value="out">
+                  Outdoors
+                </option>
+                <option value="ind">
+                  Indoors
+                </option>
+              </select>
+              </p>
+
+                <p>
+                  My favorite place is:
+                <select id="location" name="location">
+                  <option value="" disabled="disabled" selected="selected">
+                    Please select...
+                  </option>
+                  <option value="out">
+                    Outdoors
+                  </option>
+                  <option value="ind">
+                    Indoors
+                  </option>
+                </select>
+                </p>
+                <p>
           </div>
         </div>
 
