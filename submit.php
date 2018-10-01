@@ -81,7 +81,7 @@
       function initialize() {
         var latLng = new google.maps.LatLng(start_lat,start_lng);
         var map = new google.maps.Map(document.getElementById('mapCanvas'), {
-        zoom: 17,
+        zoom: 16,
         maxZoom: 20,
         minZoom: 15,
         center: latLng,
@@ -89,7 +89,7 @@
         });
         var marker = new google.maps.Marker({
         position: latLng,
-        title: 'My favorite place',
+        title: 'My Favorite Place',
         map: map,
         draggable: true
       });
@@ -137,70 +137,215 @@
 
       <form action="process.php" onsubmit="return verify();" id="places_form" method="post"
       name="places_form">
-      
+
         <div id="leftpanel">
           <p>
             My favorite place is here:<br />
-            (click and drag tip of pink marker to location on map)
+            (click and drag tip of red marker to location on map)
           </p>
           <div id="mapCanvas" style="height:400px;">Loading map... be patient...</div>
-        </div>   
-           
-        <div id="rightpanel">
-          <p>
-            My first name is:<br />
-            (this is optional)
-          </p><input type="text" id="name" maxlength="32" name="name" />
-
-          <p>
-            I am a:
-          </p><select id="type" name="type">
-            <option value="" disabled="disabled" selected="selected">
-              Please select...
-            </option>
-            <?php while (list($val,$txt) = each($demographic)) { ?>
-              <option value="<?php echo $val ?>">
-                <?php echo $txt ?>
-              </option>
-            <?php }; ?>
-          </select>
-          <p>
-            And I am:
-          </p><select id="gender" name="gender">
-            <option value="" disabled="disabled" selected="selected">
-              Please select...
-            </option>
-            <option value="mal">
-              Male
-            </option>
-            <option value="fem">
-              Female
-            </option>
-            <option value="oth">
-              I'd rather not say
-            </option>
-          </select>
-          <p>
-            My favorite place is:
-          <select id="location" name="location">
-            <option value="" disabled="disabled" selected="selected">
-              Please select...
-            </option>
-            <option value="out">
-              Outdoors
-            </option>
-            <option value="ind">
-              Indoors
-            </option>
-          </select>
-          </p>
-          <p>
-            This is why it is special to me:
-          </p>
-          <textarea id="description" name="description" style="margin-bottom:0px;"></textarea>
-          <span id="charlimitinfo" style="font-size:0.8em;" >(Max. 255 characters)</span>
         </div>
-        
+
+        <div id="rightpanel">
+          <div id="rightpanelInfo">
+            <p>
+              My first name is:<br />
+              (this is optional)
+            </p><input type="text" id="name" maxlength="32" name="name" />
+
+            <p>
+              I am a:
+            </p><select id="type" name="type">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <?php while (list($val,$txt) = each($demographic)) { ?>
+                <option value="<?php echo $val ?>">
+                  <?php echo $txt ?>
+                </option>
+              <?php }; ?>
+            </select>
+            <p>
+              And I am:
+            </p><select id="gender" name="gender">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="mal">
+                Male
+              </option>
+              <option value="fem">
+                Female
+              </option>
+              <option value="oth">
+                I'd rather not say
+              </option>
+            </select>
+            <p>
+              My favorite place is:
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            </p>
+            <p>
+              This is why it is special to me:
+            </p>
+            <textarea id="description" name="description" style="margin-bottom:0px;"></textarea>
+            <span id="charlimitinfo" style="font-size:0.8em;" >(Max. 255 characters)</span>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+            <select id="location" name="location">
+              <option value="" disabled="disabled" selected="selected">
+                Please select...
+              </option>
+              <option value="out">
+                Outdoors
+              </option>
+              <option value="ind">
+                Indoors
+              </option>
+            </select>
+          </div>
+        </div>
+
         <div id="bottompanel">
           <p style="font-size:0.8em;text-align:left;">
            PLEASE NOTE: All submitted information will be publicly viewable.
@@ -211,8 +356,8 @@
           <input type="submit" name="submit" class="button highlight" value="Submit this place" />
           &nbsp;&nbsp;or&nbsp;&nbsp;
           <input type="button" class="button"  value="See what others have submitted" onclick="window.location = 'map.php';" />
-        </div>   
-        
+        </div>
+
       </form>
 
     <div id="infopanel">

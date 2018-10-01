@@ -5,7 +5,7 @@ Edit configuration parameters for this app below
 */
 
 // App data
-define("APP_NAME",      "Our Favorite Places");
+define("APP_NAME",      "Our Favorite Places @ Smith College");
 define("APP_DESC",      "A description goes here for the meta tag and for the home page.");
 define("ADMIN_EMAILS",  "me@here.com");
 define("APP_URL",       "http://localhost/My-Favorite-Places/");
@@ -15,8 +15,12 @@ define("OUT_NAME",      "View home page");
 define("OUT_URL",       "index.php");
 
 // Location parameters
-define("START_LAT",     "42.390185");
-define("START_LON",     "-72.528412");
+// var start_lat = 42.318311;
+// var start_lng = -72.638034;
+// define("START_LAT",     "42.390185");
+// define("START_LON",     "-72.528412");
+define("START_LAT",     "42.318311");
+define("START_LON",     "-72.638034");
 define("HEATMAP_RES",   "1000");
 
 // MySQL database setup

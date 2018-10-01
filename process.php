@@ -60,7 +60,7 @@ if (isset($_POST['submit']) and ($_SERVER['HTTP_REFERER'] == APP_URL.'submit.php
     };
 
     //  };
-  
+
 };
 
 ?>

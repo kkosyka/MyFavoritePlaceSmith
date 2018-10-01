@@ -18,15 +18,15 @@ jQuery(document).ready(function($) {
 		});
 	});
 </script>
-      
+
 <ul id="cycle">
 
 <?php
-      
+
 if ($db = mysqli_connect(DB_SERVER, DB_USER, DB_PASS)) {
 
   mysqli_select_db($db, DB_NAME);
-  
+
   // Select 10 random submissions:
   $result = mysqli_query($db, 'SELECT * FROM submissions ORDER BY RAND() LIMIT 10');
 
@@ -34,7 +34,7 @@ if ($db = mysqli_connect(DB_SERVER, DB_USER, DB_PASS)) {
 
     if ($row->name == '')
       $row->name = 'Anonymous';
-      
+
 ?>
 <li><b><span class="name"><a href="<?php echo APP_URL."map-single.php?p=".$row->id; ?>"><?php echo $row->name; ?> says</a>:</span></b><br />
 <span class="text">"<?php echo stripslashes($row->description); ?>" - <a href="<?php echo APP_URL."map-single.php?p=".$row->id; ?>"><b>Visit this place</b></a></span></li>

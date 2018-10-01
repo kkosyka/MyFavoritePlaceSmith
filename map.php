@@ -10,6 +10,9 @@
         var start_lat = <?php echo START_LAT; ?>;
         var start_lng = <?php echo START_LON; ?>;
 
+        // var start_lat = 42.318311;
+        // var start_lng = -72.638034;
+
         var latLng = new google.maps.LatLng(start_lat,start_lng);
         var myOptions = {
           zoom: 15,
