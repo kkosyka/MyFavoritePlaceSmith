@@ -52,6 +52,7 @@ if (isset($_POST['submit']) and ($_SERVER['HTTP_REFERER'] == APP_URL.'submit.php
       // Now show the new point
       header('Location: map-single.php?p='.$last_id);
 
+
   	} else {
 
       // The submission included blockwords

@@ -8,7 +8,7 @@ Edit configuration parameters for this app below
 define("APP_NAME",      "Our Favorite Places @ Smith College");
 define("APP_DESC",      "A description goes here for the meta tag and for the home page.");
 define("ADMIN_EMAILS",  "me@here.com");
-define("APP_URL",       "http://localhost/My-Favorite-Places/");
+define("APP_URL",       "http://localhost:8888/");//"http://localhost/My-Favorite-Places/");
 
 // Outbound button link - This appears on map pages
 define("OUT_NAME",      "View home page");
@@ -25,7 +25,7 @@ define("HEATMAP_RES",   "1000");
 
 // MySQL database setup
 define("DB_SERVER",     "localhost");
-define("DB_USER",       "root");
+define("DB_USER",       "");
 define("DB_PASS",       "");
 define("DB_NAME",       "myfavoriteplaces");
 
