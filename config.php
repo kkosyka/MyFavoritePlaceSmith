@@ -25,8 +25,8 @@ define("HEATMAP_RES",   "1000");
 
 // MySQL database setup
 define("DB_SERVER",     "localhost");
-define("DB_USER",       "");
-define("DB_PASS",       "");
+define("DB_USER",       "root");
+define("DB_PASS",       "root");
 define("DB_NAME",       "myfavoriteplaces");
 
 // Options for the demographic dropdown
